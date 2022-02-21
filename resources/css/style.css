@@ -231,13 +231,12 @@ input[type=submit]:hover{
     display: none;
     height: 50px;
     width: auto;
-    float: right;
-    margin: 15px 25px;
+    float: left;
+    margin: 5px 0;
 }
 
 .main-nav{
-    float: left;
-    margin-left: 420px;
+    float: right;
     list-style: none;
     margin-top: 55px;
 }
@@ -265,43 +264,20 @@ input[type=submit]:hover{
 }
 
 
-.mobile-nav-icon{
-    float: right;
-    position: sticky;
-    margin-right: -310px;
-    margin-top: 25px;
-    cursor: pointer;
-    display: none;
-}
 
-.mobile-nav-icon{
-    display: inline-block;
-    float: right;
-}
-
-.mobile-nav-icon i{
-    font-size: 200%;
-    color: #fff;
-}
-
-
-.main-nav {
-    display: none;
-}
-.mobile-nav-icon{
-        display: inline-block;
-}
 
 /* sticky nav*/
 
+
 .sticky{
-    float: right;
     position: fixed;
-    width: 20%;
-    height: 50%;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: rgba(252, 252, 252, 0.95);
     box-shadow: 0 2px 2px #e2ccb8;
     transition: 1s;
+    transform: scale(1.10);
     z-index: 9999;
 }
 
